@@ -1,4 +1,4 @@
-\IF EXISTS (
+IF EXISTS (
 		SELECT name
 		FROM sys.objects
 		WHERE object_id = object_id(N'Calendar')
